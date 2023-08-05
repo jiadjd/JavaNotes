@@ -1,0 +1,17 @@
+Java Notes
+1. Breath first search
+	with BFS, use a queue (FIFO). 
+	Start with any node, add the node to the queue (1), completely explore all its adjacent nodes, 
+	add all these nodes to the queue (2, 3, 4). 
+	When all adjacent nodes of (1) are explored, remove (1) from queue
+	Go to the next node in the queue, explore all its adjacent nodes that have not been explored yet,
+	add these nodes to the queue. Once these are all explored, remove node (2) from the queue.
+	Repeat
+2. Depth first search
+	with DFS, use a stack (FILO).
+	Start with any node(1), add it to the stack, explore one adjacent node(2), add it to the stack,
+	explore one of (2)'s adjacent nodes, add it to the stack(3). 
+	When there is not next node, go back to the previous node in the stack, explore that path,
+	while adding all new nodes to the stack.
+	Repeat
+3. 
